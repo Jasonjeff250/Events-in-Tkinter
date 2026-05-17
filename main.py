@@ -43,7 +43,7 @@ def use_eraser():
     global eraser_on
     eraser_on=True
 def change_size(val):
-    global brushh_size
+    global brush_size
     brush_size=int(val)
 def clear_canvas():
     canvas.delete("all")
